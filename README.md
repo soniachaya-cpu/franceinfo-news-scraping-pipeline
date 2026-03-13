@@ -1,4 +1,4 @@
-# Franceinfo Media Monitoring
+# franceinfo-news-scraping-pipeline
 
 This project implements a structured web scraping pipeline that collects
 environmental health news articles from Franceinfo.
