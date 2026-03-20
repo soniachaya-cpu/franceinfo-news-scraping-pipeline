@@ -1,4 +1,4 @@
-# franceinfo-news-scraping-pipeline
+# FranceInfo News Scraping Pipeline + API
 
 This project implements a structured web scraping pipeline that collects
 environmental health news articles from Franceinfo.
@@ -27,3 +27,16 @@ Python
 BeautifulSoup
 Requests
 Pandas
+
+
+## New Feature: API Layer
+
+This project now includes a FastAPI-based API to expose processed data as JSON.
+
+It allows:
+
+- Accessing cleaned articles via `/articles`
+- Getting dataset statistics via `/stats`
+- Extracting keywords via `/keywords`
+
+This transforms the pipeline into a usable data service.
